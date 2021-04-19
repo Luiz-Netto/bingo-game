@@ -1,14 +1,11 @@
 import React from 'react';
-import {View} from 'react-native';
 
 import {HomeContainer} from '../containers';
 
+interface IInitialScreenProps {}
+
 const HomeScreen = () => {
-  return (
-    <View>
-      <HomeContainer />
-    </View>
-  );
+  return <HomeContainer />;
 };
 
 export {HomeScreen};

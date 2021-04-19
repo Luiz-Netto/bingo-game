@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View} from 'react-native';
 
-const Home = () => {
+const HomeComponent = () => {
   return (
     <View>
       <Text>HOME</Text>
@@ -9,4 +9,4 @@ const Home = () => {
   );
 };
 
-export {Home};
+export {HomeComponent};
